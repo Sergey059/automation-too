@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<title>Контакты - Домашнее задание к уроку - 5</title>
+	<meta name="description" content="HTML/CSS. Интерактивный курс 2021/05/24">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/hero.jpg">
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+<body>
+	
+
+<header class="header contacts-header">
+	<nav class="header__navigation contacts-navigation">
+		<div class="container">
+			<ul class="header__menu menu">
+	<li class="menu__item"><a href="index.html" class="menu__link icon icon-logo blick"></a></li>
+	<li class="menu__item"><a href="contacts.html" class="menu__link icon icon-contacts blick"></a></li>
+</ul>
+
+		</div>
+	</nav>
+	<div class="header__info contacts-bg">
+		<div class="container">
+			<h1 class="contacts-title">
+				Contact Us
+			</h1>
+			<p class="contacts-desc">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			</p>
+		</div>
+	</div>
+</header><!-- End header -->
+<main class="content">
+	<section class="abouts">
+		<div class="abouts__info">
+			<img src="images/dist/woman-3.png" alt="Woman" class="abouts__img">
+			<div class="abouts__adress">
+				<h4 class="abouts__title">Address</h4>
+				<p class="abouts__text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+			</div>
+			<ul class="abouts__list">
+				<h4 class="abouts__title">Phone</h4>
+				<li class="abouts__list-item"><a href="tel:+781273134321" class="abouts__list-link icon icon-phone">+7-812-7313-4321</a></li>
+				<li class="abouts__list-item"><a href="tel:+781700001234" class="abouts__list-link icon icon-phone">+7-817-0000-1234</a></li>
+			</ul>
+			<ul class="abouts__list">
+				<h4 class="abouts__title">Online service</h4>
+				<li class="abouts__list-item"><a href="http://www.site.com" class="abouts__list-link abouts__list-link_normal icon icon-sphere">www.site.com</a></li>
+				<li class="abouts__list-item"><a href="mailto:hello.site@gmail.com" class="abouts__list-link abouts__list-link_normal icon icon-mail">hello.site@gmail.com</a></li>
+			</ul>
+		</div><!-- End abouts__info -->
+		<form method="POST" autocomplete="off" novalidate class="abouts__message form">
+			<h4 class="form__heading">Send us message</h4>
+			<div class="form__item">
+				<label for="username" class="form__item-title">Full Name</label>
+				<input id="username" class="form__item-value" type="text" name="username" placeholder="Your Name">
+			</div>
+			<div class="form__item">
+				<label for="usermail" class="form__item-title">Email</label>
+				<input id="usermail" class="form__item-value" type="email" name="usermail" placeholder="Your Email">
+			</div>
+			<div class="form__item">
+				<label for="textmess" class="form__item-title">Message</label>
+				<textarea id="textmess" class="form__item-value" name="textmess" placeholder="Your Message" rows="3"></textarea>
+			</div>
+			<button type="submit" class="btn form__btn">Submit</button>
+		</form><!-- End abouts__message -->
+	</section>
+	<div class="location">
+		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A563f4433b026827ed0cdbb480dc21cb234c27f5bbb249cb73270e0c154469cad&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+	</div><!-- End location -->
+</main><!-- End content -->
+
+	<footer class="footer">
+			<div class="footer__top">
+				<div class="container footer__container footer__container_flex">
+					<div class="footer__info">
+						<h3 class="section-title footer__heading">Intersted to woek<br>with our team?</h3>
+						<p class="footer__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					<button class="btn footer__btn">Let’s Talk</button>
+				</div>
+			</div><!-- End footer__top -->
+			<div class="footer__bottom container footer__container">
+				<ol class="footer__list">
+					<li class="footer__list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					<li class="footer__list-item"><a href="tel:+781273134321" class="footer__item-link">+7-812-7313-4321</a></li>
+					<li class="footer__list-item">
+						<a href="mailto:hello.site@gmail.com" class="footer__item-link">hello.site@gmail.com</a>
+					</li>
+				</ol><!-- End footer__list -->
+				<p class="footer__copy">2021 All rights reserved.</p>
+			</div><!-- End footer__bottom -->
+	</footer><!-- End footer -->
+	
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
